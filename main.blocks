@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="icCY:_@~HV17J+=0[Z;0">mySprite</variable><variable type="KIND_SpriteKind" id="XJFhsH:iS3@=#S_i$=%4">Player</variable><variable type="KIND_SpriteKind" id="re?QwK$vHixuNiQ:Uh~%">Projectile</variable><variable type="KIND_SpriteKind" id="O9YyNrY[uU:=n:4%hf]7">Food</variable><variable type="KIND_SpriteKind" id="|ENiL^~dPh9LH@/aL#jg">Enemy</variable></variables><block type="pxt-on-start" id="rU29Ud*YV[s3Iw=s#`Y)" x="0" y="0"><statement name="HANDLER"><block type="tilemap_editor" id="yoESMsJK[khX|6v$?e}("><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level3"}}</data><next><block type="gamesetbackgroundimage" id="Y2*,3xHIjKR`LTw}PMC-"><value name="img"><shadow type="background_image_picker" id="k0=|MZq(Nh63m8[H5H(s"><field name="img">assets.image`background`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><next><block type="variables_set" id="a~$a5GLP~3kzzo3TRT3]"><field name="VAR" id="icCY:_@~HV17J+=0[Z;0">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="9([n@3EKcVK3rIy@u!mW"><value name="img"><shadow type="screen_image_picker" id=":(Y6@3/OF!mFuuBk8G9w"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . 3 . . . . . . . . 3 . . . . 
+. . 3 3 . . . . . . . 3 . . . . 
+. . . 3 . 3 3 3 3 . 3 3 3 . . . 
+. . . . 3 . 3 3 3 . 3 . 3 . . . 
+. . . . . 3 . 3 3 . 3 . 3 . . . 
+. 3 . . . 3 . 3 3 3 3 . 3 . . . 
+. 3 3 . . . 3 3 . 3 3 . 3 . . . 
+. . 3 3 . 3 3 3 3 3 3 3 3 . . . 
+. . . 3 3 3 3 3 3 3 3 3 3 3 3 . 
+. . . . 3 3 3 3 3 3 3 . . . 3 . 
+. . . . . 3 3 3 3 3 3 3 . . 3 . 
+. . . . . 3 3 . . 3 . 3 3 3 3 . 
+. . . . . . 3 3 . 3 . . . 3 3 . 
+. . . . . . . . 3 3 . . . . 3 . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":":(Y6@3/OF!mFuuBk8G9w"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="aD2oH$}hy;fsW76|=?U`"><field name="MEMBER">Food</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="pNDmTc6Gf6Ocvw4$aR*,"><field name="property">Sprite.ay@set</field><value name="mySprite"><block type="variables_get" id="G~f^,zlr0v4y9dpT;(5^"><field name="VAR" id="icCY:_@~HV17J+=0[Z;0">mySprite</field></block></value><value name="value"><shadow type="math_number" id="S,Vj]UB7;20J#||{_^7H"><field name="NUM">6000</field></shadow></value><next><block type="Sprite_blockCombine_set" id="q#f!G?2sGNo|whTjrkGF"><field name="property">Sprite.vx@set</field><value name="mySprite"><block type="variables_get" id="vq2K0ad=0vU4qi)Wx^}L"><field name="VAR" id="icCY:_@~HV17J+=0[Z;0">mySprite</field></block></value><value name="value"><shadow type="math_number" id="!WE]m~?5[{ra=ErH.K9A"><field name="NUM">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
